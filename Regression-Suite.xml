@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+	<suite name = "Regression Suite">
+		<test name = "RestAssured Test">
+			<classes>
+				<class name = "com.icreon.customer.customerProfileInformationTest"></class>
+				<class name = "com.icreon.customer.kidTest"></class>
+				<class name = "com.icreon.customer.MileagePlusRewardNumberTest"></class>
+				<class name = "com.icreon.customer.stravaUpdateTest"></class>
+			</classes>
+		</test>
+	</suite>

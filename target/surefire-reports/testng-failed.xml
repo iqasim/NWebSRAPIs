@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Command line suite]">
+  <test thread-count="5" verbose="0" name="Command line test(failed)">
+    <classes>
+      <class name="com.icreon.customer.stravaUpdateTest">
+        <methods>
+          <include name="TC_002_UsingExsitingStravaId"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.icreon.customer.stravaUpdateTest -->
+      <class name="com.icreon.customer.customerProfileInformationTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="TC_002_PassingProfileIDinPath"/>
+        </methods>
+      </class> <!-- com.icreon.customer.customerProfileInformationTest -->
+      <class name="com.icreon.customer.MileagePlusRewardNumberTest">
+        <methods>
+          <include name="TC_001_MileageNumberAlreadyExist"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.icreon.customer.MileagePlusRewardNumberTest -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [Command line suite] -->

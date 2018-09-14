@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="4" ignored="0" total="13" passed="9">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Regression Suite" duration-ms="18607" started-at="2018-06-05T11:15:01Z" finished-at="2018-06-05T11:15:20Z">
+    <groups>
+    </groups>
+    <test name="RestAssured Test" duration-ms="18607" started-at="2018-06-05T11:15:01Z" finished-at="2018-06-05T11:15:20Z">
+      <class name="com.icreon.customer.kidTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.icreon.customer.kidTest@91161c7]" name="setUp" is-config="true" duration-ms="1" started-at="2018-06-05T11:15:13Z" finished-at="2018-06-05T11:15:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="FAIL" signature="TC_001_SavingANewKid()[pri:0, instance:com.icreon.customer.kidTest@91161c7]" name="TC_001_SavingANewKid" duration-ms="1461" started-at="2018-06-05T11:15:13Z" finished-at="2018-06-05T11:15:14Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Success] but found [Record already exist]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Success] but found [Record already exist]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+at org.testng.Assert.assertEquals(Assert.java:118)
+at org.testng.Assert.assertEquals(Assert.java:453)
+at org.testng.Assert.assertEquals(Assert.java:463)
+at com.icreon.customer.kidTest.TC_001_SavingANewKid(kidTest.java:63)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_001_SavingANewKid -->
+      </class> <!-- com.icreon.customer.kidTest -->
+      <class name="com.icreon.customer.MileagePlusRewardNumberTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.icreon.customer.MileagePlusRewardNumberTest@604ed9f0]" name="setUp" is-config="true" duration-ms="0" started-at="2018-06-05T11:15:14Z" finished-at="2018-06-05T11:15:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="TC_001_MileageNumberAlreadyExist()[pri:0, instance:com.icreon.customer.MileagePlusRewardNumberTest@604ed9f0]" name="TC_001_MileageNumberAlreadyExist" duration-ms="3121" started-at="2018-06-05T11:15:14Z" finished-at="2018-06-05T11:15:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_001_MileageNumberAlreadyExist -->
+        <test-method status="PASS" signature="TC_002_MileageNumberNotValid()[pri:0, instance:com.icreon.customer.MileagePlusRewardNumberTest@604ed9f0]" name="TC_002_MileageNumberNotValid" duration-ms="489" started-at="2018-06-05T11:15:17Z" finished-at="2018-06-05T11:15:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_002_MileageNumberNotValid -->
+      </class> <!-- com.icreon.customer.MileagePlusRewardNumberTest -->
+      <class name="com.icreon.customer.customerProfileInformationTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.icreon.customer.customerProfileInformationTest@5c3bd550]" name="setUp" is-config="true" duration-ms="2400" started-at="2018-06-05T11:15:01Z" finished-at="2018-06-05T11:15:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="FAIL" signature="TC_001_Passing0InPath()[pri:0, instance:com.icreon.customer.customerProfileInformationTest@5c3bd550]" name="TC_001_Passing0InPath" duration-ms="5587" started-at="2018-06-05T11:15:03Z" finished-at="2018-06-05T11:15:09Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [404] but found [200]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [404] but found [200]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+at org.testng.Assert.assertEquals(Assert.java:118)
+at org.testng.Assert.assertEquals(Assert.java:652)
+at org.testng.Assert.assertEquals(Assert.java:662)
+at com.icreon.customer.customerProfileInformationTest.TC_001_Passing0InPath(customerProfileInformationTest.java:71)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_001_Passing0InPath -->
+        <test-method status="FAIL" signature="TC_002_PassingProfileIDinPath()[pri:0, instance:com.icreon.customer.customerProfileInformationTest@5c3bd550]" name="TC_002_PassingProfileIDinPath" duration-ms="520" started-at="2018-06-05T11:15:09Z" finished-at="2018-06-05T11:15:10Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [404] but found [200]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [404] but found [200]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+at org.testng.Assert.assertEquals(Assert.java:118)
+at org.testng.Assert.assertEquals(Assert.java:652)
+at org.testng.Assert.assertEquals(Assert.java:662)
+at com.icreon.customer.customerProfileInformationTest.TC_002_PassingProfileIDinPath(customerProfileInformationTest.java:91)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_002_PassingProfileIDinPath -->
+        <test-method status="PASS" signature="TC_003_PassingWrongProfileIDinPath()[pri:0, instance:com.icreon.customer.customerProfileInformationTest@5c3bd550]" name="TC_003_PassingWrongProfileIDinPath" duration-ms="496" started-at="2018-06-05T11:15:10Z" finished-at="2018-06-05T11:15:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_003_PassingWrongProfileIDinPath -->
+        <test-method status="PASS" signature="TC_004_requestWithoutAuthorization()[pri:0, instance:com.icreon.customer.customerProfileInformationTest@5c3bd550]" name="TC_004_requestWithoutAuthorization" duration-ms="585" started-at="2018-06-05T11:15:10Z" finished-at="2018-06-05T11:15:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_004_requestWithoutAuthorization -->
+        <test-method status="PASS" signature="TC_005_requestWithoutX_Fred_Auth()[pri:0, instance:com.icreon.customer.customerProfileInformationTest@5c3bd550]" name="TC_005_requestWithoutX_Fred_Auth" duration-ms="466" started-at="2018-06-05T11:15:11Z" finished-at="2018-06-05T11:15:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_005_requestWithoutX_Fred_Auth -->
+        <test-method status="PASS" signature="TC_006_requestWithoutCustomerId()[pri:0, instance:com.icreon.customer.customerProfileInformationTest@5c3bd550]" name="TC_006_requestWithoutCustomerId" duration-ms="466" started-at="2018-06-05T11:15:11Z" finished-at="2018-06-05T11:15:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_006_requestWithoutCustomerId -->
+        <test-method status="PASS" signature="TC_007_mismatchedCustomerId()[pri:0, instance:com.icreon.customer.customerProfileInformationTest@5c3bd550]" name="TC_007_mismatchedCustomerId" duration-ms="469" started-at="2018-06-05T11:15:12Z" finished-at="2018-06-05T11:15:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_007_mismatchedCustomerId -->
+        <test-method status="PASS" signature="custProfileInfo()[pri:0, instance:com.icreon.customer.customerProfileInformationTest@5c3bd550]" name="custProfileInfo" duration-ms="636" started-at="2018-06-05T11:15:12Z" finished-at="2018-06-05T11:15:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- custProfileInfo -->
+      </class> <!-- com.icreon.customer.customerProfileInformationTest -->
+      <class name="com.icreon.customer.stravaUpdateTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.icreon.customer.stravaUpdateTest@6a4f787b]" name="setUp" is-config="true" duration-ms="1" started-at="2018-06-05T11:15:18Z" finished-at="2018-06-05T11:15:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="TC_001_PassingAllParametersCorrectly()[pri:0, instance:com.icreon.customer.stravaUpdateTest@6a4f787b]" name="TC_001_PassingAllParametersCorrectly" duration-ms="892" started-at="2018-06-05T11:15:18Z" finished-at="2018-06-05T11:15:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_001_PassingAllParametersCorrectly -->
+        <test-method status="FAIL" signature="TC_002_UsingExsitingStravaId()[pri:0, instance:com.icreon.customer.stravaUpdateTest@6a4f787b]" name="TC_002_UsingExsitingStravaId" duration-ms="877" started-at="2018-06-05T11:15:19Z" finished-at="2018-06-05T11:15:20Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Success] but found [Starva Id already exist]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Success] but found [Starva Id already exist]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+at org.testng.Assert.assertEquals(Assert.java:118)
+at org.testng.Assert.assertEquals(Assert.java:453)
+at org.testng.Assert.assertEquals(Assert.java:463)
+at com.icreon.customer.stravaUpdateTest.TC_002_UsingExsitingStravaId(stravaUpdateTest.java:80)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_002_UsingExsitingStravaId -->
+      </class> <!-- com.icreon.customer.stravaUpdateTest -->
+    </test> <!-- RestAssured Test -->
+  </suite> <!-- Regression Suite -->
+</testng-results>
